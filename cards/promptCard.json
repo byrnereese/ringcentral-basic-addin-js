@@ -1,0 +1,39 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "Why hello there."
+        },
+        {
+            "type": "TextBlock",
+            "text": "Please, allow me to say hello.",
+            "wrap": true
+        },
+        {
+            "type": "Input.Text",
+            "id": "helloText",
+            "placeholder": "Enter your name",
+            "label": "What is your name?"
+        },
+        {
+            "type": "ActionSet",
+            "actions": [
+                {
+                    "type": "Action.Submit",
+                    "title": "Say hello",
+                    "data": {
+                        "actionType": "hello",
+                        "botId": "${botId}",
+                        "groupId": "${groupId}"
+
+                    }
+                }
+            ]
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5"
+}

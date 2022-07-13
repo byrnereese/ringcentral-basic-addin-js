@@ -1,0 +1,18 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "weight": "Bolder",
+            "text": "Hi. My name is MeetupBot."
+        },
+        {
+            "type": "TextBlock",
+            "text": "Nice to meet you. I was installed to help demonstrate how to build an add-in. Customize this text with a good welcome message. ",
+            "wrap": true
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.5"
+}
